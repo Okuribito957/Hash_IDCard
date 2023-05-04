@@ -2,7 +2,7 @@ import datetime
 import hashlib
 
 TARGET_HASH = "b056184ef62fa3048b349d5a7f4551a977e291b4a8effb78a4665314afca1374" #哈希值
-AREA_CODE_FILE = "aeraCode.txt"
+AREA_CODE_FILE = "D:\\PyCharmWorkSpace\\Hash_IDCard\\answer_1\\aeraCode.txt" #绝对路径 注意使用转义字符\\
 
 class DateGenerator:
     """日期生成器, 给出区间, 生成之间的所有日期"""
